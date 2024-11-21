@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Главная страница - Путешествия</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous"
+    />
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        .gradient-travel {
+            background: linear-gradient(to right, #FFDEE9, #B5FFFC);
+        }
+
+        .btn-explore {
+            background: linear-gradient(to right, #FFA69E, #FF6F61);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            padding: 10px 20px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .btn-explore:hover {
+            background: linear-gradient(to right, #FF6F61, #FFA69E);
+            transform: scale(1.1);
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .feature-card {
+            border: none;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .navbar {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="gradient-travel">
+    <header class="navbar navbar-expand-lg navbar-light bg-light py-3">
+        <div class="container">
+            <a href="/" class="navbar-brand">Путешествия</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#" class="nav-link">Главная</a></li>
+                    <li class="nav-item"><a href="#features" class="nav-link">Услуги</a></li>
+                    <li class="nav-item"><a href="#blog" class="nav-link">Блог</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="text-center py-5">
+            <h1 class="display-4 fw-bold">Откройте мир путешествий!</h1>
+            <p class="lead">Мы поможем вам найти лучшие маршруты и вдохновение для ваших приключений.</p>
+            <a href="https://www.aviasales.ru/" target="_blank" class="btn btn-explore">Начать путешествие</a>
+        </section>
+        <section id="features" class="py-5 bg-white">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <div class="feature-card p-4">
+                            <h5>Экзотические пляжи</h5>
+                            <p>Лучшие курорты и пляжи мира для отдыха вашей мечты.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-card p-4">
+                            <h5>Горные приключения</h5>
+                            <p>Походы, альпинизм и незабываемые виды на природу.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-card p-4">
+                            <h5>Культурные туры</h5>
+                            <p>Откройте для себя уникальные традиции и обычаи разных стран.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="blog" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Последние статьи</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="Тропа.jpg" class="card-img-top" alt="Article 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Как выбрать идеальный маршрут</h5>
+                                <p class="card-text">Советы по выбору маршрута для вашего отдыха.</p>
+                                <a href="https://www.splav.ru/library/sovety/novaya-statya-planirovanie-marshrutov/" target="_blank" class="btn btn-primary">Читать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="Пляж2.jpg" class="card-img-top" alt="Article 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Топ 10 пляжей мира</h5>
+                                <p class="card-text">Лучшие пляжи, которые стоит посетить.</p>
+                                <a href="https://travel.yandex.ru/journal/lutchshie-plyazhi-mira/" target="_blank" class="btn btn-primary">Читать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="Еда.jpg" class="card-img-top" alt="Article 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Гастрономические туры</h5>
+                                <p class="card-text">Кулинарные маршруты для гурманов.</p>
+                                <a href="https://uniticket.ru/blog/top-7-gastronomicheskih-turov-v-2022/" target="_blank" class="btn btn-primary">Читать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacts" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-4">Контакты</h2>
+                <p class="text-center">Email: travel@site.com | Телефон: +7 123 456 7890</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Путешествия. Все права защищены.</p>
+    </footer>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"
+    ></script>
+</body>
+</html>
